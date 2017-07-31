@@ -5798,5 +5798,65 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 25px; }
+  .navbar-default .navbar-brand {
+    padding: 0; }
+    .navbar-default .navbar-brand .logo {
+      width: 17%; }
+
+.navbar-nav li:hover {
+  background-color: #ffeead; }
+  .navbar-nav li:hover a:hover {
+    color: #000000; }
+
+.one {
+  padding: 6px;
+  background-color: #ffeead;
+  height: 500px; }
+  .one h1 {
+    font-size: 100px;
+    padding-top: 100px;
+    margin: 20px;
+    color: #fff; }
+
+.box {
+  margin-bottom: 70px;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px; }
+
+.btn-success {
+  background-color: #ffeead;
+  color: #000000;
+  border-color: #ffeead;
+  width: 30%; }
+
+.btn-success:hover {
+  color: #000000;
+  background-color: #88d8b0;
+  border-color: #88d8b0; }
+
+.two h2 {
+  text-align: center;
+  font-size: 50px;
+  background-color: #fff; }
+
+.three {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  padding: 5px; }
+
+footer {
+  background-color: #ffeead;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px; }
 
 /*# sourceMappingURL=main.css.map */
